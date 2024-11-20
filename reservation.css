@@ -1,0 +1,81 @@
+body{
+    font-family: 'Raleway' , sans-serif; 
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 1px;
+   
+}
+
+body{
+    background-image: url(345182.jpg) ;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;   
+    background-size: 100%;
+
+
+}
+.container{ 
+    background-color: #fafafa;
+    margin: 200px;
+    box-shadow:10px 15px 20px rgba(0,0,0,1);
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.booking{
+    background-color: rgba(0,0,0,95);
+    padding: 50px;
+    outline: 3px solid #998100;
+    outline-offset: -30px;
+    text-align: center;
+}
+
+.heading{
+
+    color: #998100;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.container-form{
+    padding: 20px 0;
+    margin: 0 auto;
+    color: #000000;
+}
+form{
+    display: grid;
+    grid-row-gap: 20px;
+}
+
+form p{
+    font-weight: 600;
+}
+
+.registration{
+    display: flex;
+    justify-content: space-between;
+}
+
+input, select{
+    pad: 10px 15px;
+}
+
+.btn{
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    border-radius: 100px;
+    }
+
+
+video{
+        height: 100vh;
+        width: 100vw;
+        object-fit: cover;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -999;
+     }

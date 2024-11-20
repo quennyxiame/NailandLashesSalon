@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  
+
+    <div class="main" >
+        <video autoplay loop muted plays-inline class="bg">
+            <source src="new.mp4.mp4" >
+        </video>
+
+
+<div class="header" id="myHeader">
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hidesidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">AboutUs</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <ul>
+            <li><a href="#home" style="font-size:18px;">Yshn Nails & Lashes Salon</a></li>
+           
+            <li onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+
+ </div>
+
+
+    <section id="home">
+        <div class="container">
+            <h1>Welcome to Our Salon!</h1>
+            <p>Discover the perfect nails and lashes for your style. We offer a wide range of services to enhance your natural beauty.</p>
+           <a href="reservation.html"><button>Book Appointment</button></a>
+        </div>
+    </section>
+    
+    
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are a team of passionate and experienced professionals dedicated to providing exceptional nail and lash services. Our mission is to help you feel confident and beautiful.</p>
+           <title>Circle Image</title>
+           <style>
+        .circle-img{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+
+        }
+
+           </style>
+           </head>
+           <body>
+            <img src="logo.jpg" alt="About Us" class="circle-img">
+        </div>
+    </section>
+    
+    
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service">
+                    <img src="manicures.jpg" alt="Manicure">
+                    <h3>Manicures</h3>
+                    <p>From classic to trendy, we offer a variety of manicure options to suit your taste.</p>
+                </div>
+                <div class="service">
+                    <img src="pedicures.jpg" alt="Pedicure">
+                    <h3>Pedicures</h3>
+                    <p>Relax and rejuvenate your feet with our luxurious pedicure treatments.</p>
+                </div>
+                <div class="service">
+                    <img src="gel nails.jpg" alt="Gel Nails">
+                    <h3>Gel Nails</h3>
+                    <p>Long-lasting and chip-resistant, our gel nails are perfect for busy lifestyles.</p>
+                </div>
+                <div class="service">
+                    <img src="acrylic nails.jpg" alt="Acrylic Nails">
+                    <h3>Acrylic Nails</h3>
+                    <p>Create stunning nail art with our high-quality acrylic nails.</p>
+                </div>
+                <div class="service">
+                    <img src="lash extension.jpg" alt="Lash Extensions">
+                    <h3>Lash Extensions</h3>
+                    <p>Enhance your natural lashes with our beautiful and customizable lash extensions.</p>
+                </div>
+                <div class="service">
+                    <img src="lash lifts.jpg" alt="Lash Lifts">
+                    <h3>Lash Lifts</h3>
+                    <p>Open up your eyes and achieve a natural lift with our lash lift and tint service.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="pricing">
+        <div class="container">
+            <h2>Pricing</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Service</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Manicure</td>
+                        <td>P380</td>
+                    </tr>
+                    <tr>
+                        <td>Pedicure</td>
+                        <td>P350</td>
+                    </tr>
+                    <tr>
+                        <td>Gel Nails</td>
+                        <td>P1000</td>
+                    </tr>
+                    <tr>
+                        <td>Acrylic Nails</td>
+                        <td>P1200</td>
+                    </tr>
+                    <tr>
+                        <td>Lash Extensions</td>
+                        <td>P480</td>
+                    </tr>
+                    <tr>
+                        <td>Lash Lifts</td>
+                        <td>P350</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    
+    
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+    
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <p>&copy; 2024 Nails & Lashes Salon. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function showSidebar(){
+            const sidebar=document.querySelector('.sidebar');
+            sidebar.style.display='flex';
+        }
+
+        function hidesidebar(){ 
+            const sidebar=document.querySelector('.sidebar'); 
+            sidebar.style.display='none';
+            
+        }
+
+        window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+
+    </script>
+    
+</body>
+</html>
